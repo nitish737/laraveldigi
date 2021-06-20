@@ -1,0 +1,54 @@
+:root {
+    --brand-color:#673ab7;
+    --brand-background:#EDE7F6;
+}
+.card-heading{
+    color: #9A9A9A;
+    font-size:1rem;
+    font-weight:400;
+}
+.h5{
+    font-size:2.5rem;
+}
+
+.sidebar .nav-item .nav-link:active{
+    color:pink !important;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+h1,h2,h3,h4{
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-link span{
+    font-family: 'Roboto', sans-serif;
+}
+
+.sidebar-light .nav-item .nav-link:active, .sidebar-light .nav-item .nav-link:focus, .sidebar-light .nav-item .nav-link:hover {
+    color: var(--brand-color);
+    transition: ease-in 0.15s;
+}
+
+.topbar{
+    background-color:var(--brand-color);
+}
+.sidebar{
+    background-color:var(--brand-background);
+}
+button,.btn-purp{
+    background:var(--brand-background);
+}
+i,i:before{
+    color:var(--brand-color);
+}
+.fa-arrow-circle-left,.fa-arrow-circle-left:before{
+    color:white;
+}
+.fa-caret-down,.fa-caret-down:before{
+    color: #D1D3E2;
+}
+.badge-purp{
+    background-color:#673ab7;
+    color:white;
+}
